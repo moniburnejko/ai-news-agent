@@ -1,4 +1,4 @@
-# 🤖 ai news agent
+# ai news agent
 
 fetches ai-related rss/atom feeds, extracts article text, generates concise
 bullet-point summaries and topical tags, and pushes structured entries to a
