@@ -1,0 +1,14 @@
+# core
+requests>=2.28.0
+feedparser>=6.0.8
+python-dateutil>=2.8.2
+python-dotenv>=1.0.0
+certifi>=2023.5.7
+notion-client>=0.14.1
+
+# optional but recommended:
+beautifulsoup4>=4.12.2
+trafilatura>=1.0.5
+
+# optional for google gemini summarizer and keywords:
+google-generativeai>=1.0.0
