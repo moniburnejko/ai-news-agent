@@ -42,7 +42,7 @@ log = logging.getLogger("ai-news-agent")
 DEFAULT_FEED_NAME = "AI News"
 DEFAULT_FEED_URL = "https://artificialintelligence-news.com/feed/"
 
-DAYS_BACK = int(os.getenv("DAYS_BACK", "7"))
+DAYS_BACK = int(os.getenv("DAYS_BACK", "3"))
 MAX_PER_FEED = int(os.getenv("MAX_PER_FEED", "10"))
 TOTAL_LIMIT = int(os.getenv("TOTAL_LIMIT", "50"))
 
