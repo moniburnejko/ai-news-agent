@@ -38,7 +38,7 @@ this setup allows:
 - moving articles between folders (e.g., *read later*, *research*, *projects*)  
 - connecting articles to other notion pages or dashboards  
 
-in short, it’s not just an archive — it’s a growing, editable ai knowledge hub.
+in short, it’s not just an archive - it’s a growing, editable ai knowledge hub.
 
 ### database schema
 | property | type | description |
