@@ -98,12 +98,10 @@ google-genai
 - add multi-feed support via feeds.yml (most important)
 - add automated scheduling with github actions
 - extend summarization options (anthropic, openai)
-- improve keyword extraction
 - implement sqlite-based local cache to reduce notion api calls
 - add cli interface with argparse (feed selection, dry-run flag)
 - integrate notifications (e.g., discord, email)
 - add pytest unit tests and coverage reports
-- create dockerfile for portable deployment
 
 ### license
 this project is released under the **mit license**.  
