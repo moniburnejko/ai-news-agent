@@ -1,4 +1,4 @@
-# byte-compiled / optimized / ddl files
+# byte-compiled / optimized / dll files
 __pycache__/
 *.py[cod]
 *$py.class
@@ -9,13 +9,10 @@ __pycache__/
 # distribution / packaging
 .Python
 build/
-develop-eggs/
 dist/
 downloads/
 eggs/
 .eggs/
-lib/
-lib64/
 parts/
 sdist/
 var/
@@ -26,6 +23,7 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+wheelhouse/
 
 # virtual environments
 .venv/
@@ -38,13 +36,17 @@ venv3/
 # pyenv
 .python-version
 
-# dotenv environment variables file
+# dotenv environment variables
 .env
 .env.local
 .env.*.local
 
-# pipenv
+# allow example templates
+!examples/.env.example
+
+# pipenv / pip cache
 Pipfile.lock
+.cache/pip
 
 # pytest
 .pytest_cache/
@@ -52,6 +54,7 @@ Pipfile.lock
 
 # cache files (feed cache)
 .cache/feeds.json
+!.cache/.gitkeep
 
 # mypy
 .mypy_cache/
@@ -62,12 +65,11 @@ Pipfile.lock
 htmlcov/
 .tox/
 .nox/
-.coverage.*
 
 # jupyter
 .ipynb_checkpoints
 
-# ides and editors
+# editors / IDEs
 .vscode/
 .idea/
 *.iml
@@ -99,35 +101,18 @@ nohup.out
 secrets.*
 secrets/
 
-# notion / service tokens
-notion-token.*
-NOTION_TOKEN
-NOTION_DATABASE_ID
-
 # temporary files
 *.tmp
 *.swp
 *~
 *.bak
 
-# packaging artifacts
-*.egg-info/
-dist/
-build/
-
 # PyInstaller
 *.manifest
 *.spec
 
-# OS generated files
-.DS_Store
-Thumbs.db
-
 # ignore generated docs
 docs/_build/
 
-# ignore test result files
+# test result files
 junit-*.xml
-
-# ensure the .gitkeep added to .cache
-!.cache/.gitkeep
