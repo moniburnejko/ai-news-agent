@@ -1,0 +1,5 @@
+# list of ai-related rss/atom feeds for testing
+https://artificialintelligence-news.com/feed/
+https://huggingface.co/blog/feed.xml
+https://arstechnica.com/tag/ai/feed/
+https://blogs.nvidia.com/feed/
